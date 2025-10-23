@@ -40,7 +40,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
         Log.e("payal","check");
-        Log.e("payal","check");
+
+        Log.e("payal","In LoginActivity");
 
         test();
 
