@@ -3,6 +3,7 @@ package com.sabikrahat.eventmanagementapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class TestActiviity extends AppCompatActivity {
 
@@ -10,5 +11,10 @@ public class TestActiviity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_activiity);
+        demoLog();
+    }
+    public void demoLog(){
+        Log.e("payal","test");
+        Log.e("payal","test");
     }
 }
