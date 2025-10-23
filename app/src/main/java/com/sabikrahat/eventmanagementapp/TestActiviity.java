@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class TestActiviity extends AppCompatActivity {
 
@@ -15,5 +16,6 @@ public class TestActiviity extends AppCompatActivity {
     }
     public void demoLog(){
         Log.e("payal","test");
+        Toast.makeText(this, "dummy", Toast.LENGTH_SHORT).show();
     }
 }

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EventManagementApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DummyActivity"
+            android:exported="false" />
+        <activity
             android:name=".TestActiviity"
             android:exported="false" />
 

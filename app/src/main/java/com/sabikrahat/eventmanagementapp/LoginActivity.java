@@ -41,6 +41,9 @@ public class LoginActivity extends AppCompatActivity {
 
         Log.e("payal","check");
         Log.e("payal","check");
+
+        test();
+
         String userIdCheck = shp.getString("userId", "abc");
         if (userIdCheck.equals("abc")) {
             isCreating = true;
@@ -66,6 +69,10 @@ public class LoginActivity extends AppCompatActivity {
                 userConfirmPwdEditText.setVisibility(View.VISIBLE);
             }
         });
+    }
+
+    public void test(){
+        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
     }
 
     private void userLogin() {

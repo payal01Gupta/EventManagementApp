@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebView;
 
 import org.apache.http.NameValuePair;
@@ -27,6 +28,7 @@ public class ShowWebViewActivity extends AppCompatActivity {
         String[] keys = {"CSE489-Lab", "year", "semester", "course", "section", "sid"};
         String[] values = {"true", "2022", "1", "CSE489", "2", "2019160256"};
         httpRequest(keys, values);
+        Log.e("main_activity","web view activity");
     }
 
     private void httpRequest(final String keys[], final String values[]) {
