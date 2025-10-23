@@ -15,6 +15,5 @@ public class TestActiviity extends AppCompatActivity {
     }
     public void demoLog(){
         Log.e("payal","test");
-        Log.e("payal","test");
     }
 }
