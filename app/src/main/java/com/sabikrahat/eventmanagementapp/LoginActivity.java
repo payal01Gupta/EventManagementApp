@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -37,6 +38,9 @@ public class LoginActivity extends AppCompatActivity {
         rememberUserId = findViewById(R.id.rememberUserIdCheck);
         rememberLogin = findViewById(R.id.rememberLoginCheck);
 
+
+        Log.e("payal","check");
+        Log.e("payal","check");
         String userIdCheck = shp.getString("userId", "abc");
         if (userIdCheck.equals("abc")) {
             isCreating = true;
