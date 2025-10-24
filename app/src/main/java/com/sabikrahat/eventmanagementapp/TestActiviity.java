@@ -12,7 +12,7 @@ public class TestActiviity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_activiity);
-        demoLog();
+  //      demoLog();
     }
     public void demoLog(){
         Log.e("payal","test");
