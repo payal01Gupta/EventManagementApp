@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         loadData();
 
         Log.e("main_activity","main activity");
+        Toast.makeText(this, "main activity branch merge", Toast.LENGTH_SHORT).show();
 
     }
 
