@@ -13,6 +13,12 @@
         android:theme="@style/Theme.EventManagementApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ChildBranchTaskPopup"
+            android:exported="false" />
+        <activity
+            android:name=".PopupTaskCheck"
+            android:exported="false" />
+        <activity
             android:name=".DummyActivity"
             android:exported="false" />
         <activity
