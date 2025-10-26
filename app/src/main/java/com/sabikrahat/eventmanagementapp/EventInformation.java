@@ -26,6 +26,7 @@ public class EventInformation extends AppCompatActivity {
         setContentView(R.layout.activity_event_information);
 
         Log.e("payal","eventinfirmation");
+        Toast.makeText(this, "Event Information", Toast.LENGTH_SHORT).show();
         findViewById(R.id.btnCancel).setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 finish();
