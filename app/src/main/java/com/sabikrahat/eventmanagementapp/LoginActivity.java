@@ -113,4 +113,10 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
+
+
+    public void vpnCode(){
+        Log.e("hlo how are you","shdfjdf");
+    }
+
 }
