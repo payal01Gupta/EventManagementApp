@@ -15,6 +15,7 @@ public class DummyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dummy);
         textView = findViewById(R.id.tv_dummy);
         textView.setText("Payal Gupta");
+        payalcode();
 
         Log.e("payal","dummy");
         test();
@@ -24,5 +25,11 @@ public class DummyActivity extends AppCompatActivity {
         Toast.makeText(this, "dummy method toast", Toast.LENGTH_SHORT).show();
     }
 
+
+
+
+    private void payalcode(){
+        Toast.makeText(this,"hlo hi",Toast.LENGTH_SHORT).show();
+    }
 
 }
