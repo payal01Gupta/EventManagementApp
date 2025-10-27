@@ -162,4 +162,10 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         System.out.println("@MainActivity.onDestroy");
     }
+
+
+    public void newMange(){
+        Log.e("dbfjdsf","dsfbjdsf");
+    }
+
 }
