@@ -18,11 +18,11 @@ public class DummyActivity extends AppCompatActivity {
         payalcode();
 
         Log.e("payal","dummy");
-        test();
+        testDummy();
     }
 
-    private void test() {
-        Toast.makeText(this, "dummy method toast", Toast.LENGTH_SHORT).show();
+    private void testDummy() {
+        Toast.makeText(this, "dummy method", Toast.LENGTH_SHORT).show();
     }
 
 
