@@ -29,6 +29,12 @@ public class ShowWebViewActivity extends AppCompatActivity {
         String[] values = {"true", "2022", "1", "CSE489", "2", "2019160256"};
         httpRequest(keys, values);
         Log.e("main_activity","web view activity");
+
+        webMethod();
+    }
+
+    private void webMethod() {
+        Log.e("payal","show web view activity");
     }
 
     private void httpRequest(final String keys[], final String values[]) {
