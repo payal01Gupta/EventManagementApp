@@ -44,6 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         Log.e("payal","In LoginActivity");
 
         test();
+        loginMethod();
 
         String userIdCheck = shp.getString("userId", "abc");
         if (userIdCheck.equals("abc")) {
@@ -70,6 +71,10 @@ public class LoginActivity extends AppCompatActivity {
                 userConfirmPwdEditText.setVisibility(View.VISIBLE);
             }
         });
+    }
+
+    private void loginMethod() {
+        Toast.makeText(this, "loginMethod", Toast.LENGTH_SHORT).show();
     }
 
     public void test(){
