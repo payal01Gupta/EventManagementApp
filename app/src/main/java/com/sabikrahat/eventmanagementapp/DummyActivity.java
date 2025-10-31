@@ -19,13 +19,16 @@ public class DummyActivity extends AppCompatActivity {
 
         Log.e("payal","dummy");
         testDummy();
+        test();
+    }
+
+    private void test() {
+        Toast.makeText(this, "dummy method toast", Toast.LENGTH_SHORT).show();
     }
 
     private void testDummy() {
-        Toast.makeText(this, "dummy method", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "dummy method from local child branch", Toast.LENGTH_SHORT).show();
     }
-
-
 
 
     private void payalcode(){
