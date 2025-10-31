@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DummyActivity extends AppCompatActivity {
     TextView textView;
@@ -16,6 +17,11 @@ public class DummyActivity extends AppCompatActivity {
         textView.setText("Payal Gupta");
 
         Log.e("payal","dummy");
+        testDummy();
+    }
+
+    private void testDummy() {
+        Toast.makeText(this, "dummy method", Toast.LENGTH_SHORT).show();
     }
 
 
