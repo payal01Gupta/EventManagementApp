@@ -47,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "main activity branch merge", Toast.LENGTH_SHORT).show();
 
         newMange();
+        mainManageMethod();
+    }
+
+    private void mainManageMethod() {
+        Log.e("main_activity","main activity new method");
     }
 
     private void loadData() {
