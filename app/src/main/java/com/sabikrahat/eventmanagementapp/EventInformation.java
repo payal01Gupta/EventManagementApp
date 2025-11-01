@@ -26,7 +26,6 @@ public class EventInformation extends AppCompatActivity {
         setContentView(R.layout.activity_event_information);
 
      //   Log.e("payal","eventinfirmation");
-        Toast.makeText(this, "Event Information", Toast.LENGTH_SHORT).show();
         findViewById(R.id.btnCancel).setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 finish();
@@ -59,6 +58,11 @@ public class EventInformation extends AppCompatActivity {
             initializeFormWithExistingData(existingKey);
         }
 
+        dummyMethod();
+    }
+
+    private void dummyMethod() {
+        Toast.makeText(this, "Event Information", Toast.LENGTH_SHORT).show();
     }
 
     private void initializeFormWithExistingData(String eventKey) {

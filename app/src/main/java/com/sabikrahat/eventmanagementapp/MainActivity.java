@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         System.out.println("@MainActivity.onCreate");
+        Log.e("Main Activity","main activity");
 
         findViewById(R.id.createNewBtn).setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, EventInformation.class);

@@ -18,8 +18,12 @@ public class DummyActivity extends AppCompatActivity {
 
         Log.e("payal","dummy");
         test();
+        dummyMethod();
     }
 
+    private void dummyMethod() {
+        Toast.makeText(this, "Event Information", Toast.LENGTH_SHORT).show();
+    }
     private void test() {
         Toast.makeText(this, "dummy method toast", Toast.LENGTH_SHORT).show();
     }
