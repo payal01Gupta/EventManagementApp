@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EventManagementApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".testgitignore.TestgitignoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChildBranchTaskPopup"
             android:exported="false" />
         <activity

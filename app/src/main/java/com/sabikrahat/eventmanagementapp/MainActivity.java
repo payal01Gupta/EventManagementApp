@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("main_activity","main activity");
         Toast.makeText(this, "main activity branch merge", Toast.LENGTH_SHORT).show();
 
+        newMange();
     }
 
     private void loadData() {
@@ -163,4 +164,10 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         System.out.println("@MainActivity.onDestroy");
     }
+
+
+    public void newMange(){
+        Log.e("dbfjdsf","dsfbjdsf");
+    }
+
 }
